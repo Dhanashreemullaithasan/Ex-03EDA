@@ -38,6 +38,7 @@ Save the final data set into the file.
 
 # CODE :
 
+```
 import pandas as pd 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -80,7 +81,7 @@ pd.crosstab(df["Pclass"],df["Survived"])
 pd.crosstab(df["Sex"],df["Survived"])
 df.corr()
 sns.heatmap(df.corr(),annot=True)
-
+```
 # OUPUT :
  
 ![output](./img1.png)
